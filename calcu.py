@@ -1,5 +1,6 @@
 import math
 
+
 def suma(a, b):
     """Retorna la suma de dos números."""
     return a + b
@@ -30,5 +31,7 @@ def potencia(base, exponente):
 def raiz_cuadrada(numero):
     """Retorna la raíz cuadrada de un número."""
     if numero < 0:
-        raise ValueError("No se puede calcular la raíz cuadrada de un número negativo.")
+        raise ValueError(
+            "No se puede calcular la raíz cuadrada de un número negativo."
+        )
     return math.sqrt(numero)
